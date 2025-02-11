@@ -6,9 +6,20 @@ on:
     branches: [main]
 
 jobs:
-  push_to_registry:
-    name: Push Docker image to Docker Hub
+  run_bash_command:
+    name: Run a bash command using github actions
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
+
+      - name: Run a command manually
+        run: ls -a
+
+      - name: Run multiple commands manually
+        run: |
+          pwd
+          ls -a
+
+      - name: Run multiple commands manually
+        run: bash scripts/bash.sh
