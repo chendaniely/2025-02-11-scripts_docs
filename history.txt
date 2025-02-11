@@ -1,0 +1,34 @@
+  500  cd git/
+  501  git clone git@github.com:chendaniely/2025-02-11-scripts_docs.git
+  502  cd 2025-02-11-scripts_docs/
+  503  positron .
+  504  bash bash.sh
+  505  bash bash.sh
+  506  ls -a
+  507  bash scripts/bash.sh
+  508  cd scripts/
+  509  bash bash.sh
+  510  cd ..
+  511  cat script.R
+  512  Rscript script.R
+  513  Rscript scripts/script.R
+  514  Rscript -e scripts/script.R
+  515  Rscript -e "1+1"
+  516  1+1
+  517  ls -a
+  518  mkdir -p .github/workflows
+  519  ls -a
+  520  git status
+  521  git status
+  522  git add .
+  523  git status
+  524  git commit -m 'add scripts and workflow'
+  525  git push origin main
+  526  git status
+  527  git diff
+  528  git status
+  529  git add .
+  530  git commit -m "manually run bash commands as an action"
+  531  git push origin main
+  532  git status
+  533  history > history.txt
